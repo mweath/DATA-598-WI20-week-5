@@ -42,13 +42,10 @@ In Figure \@ref(fig:starwars-gender-plot) we can see that there is an imbalance 
 
 We can put anything in `/vingettes`, such as data files:
 
-```{r}
-my_data <- read_csv(here("vignettes/my-data.csv"))
-```
+
 
 And R script files:
 
 ```{r}
 source(here("vignettes/my-script.R"))
-plus_two(my_data$a)
 ```
